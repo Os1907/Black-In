@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black In</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="./Images//navbar-icon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navBar">
+        <div class="left-side">
+            <img src="./Images/navbar-icon.svg" alt="">
+            <p>
+                Black IN Dashboard
+            </p>
+        </div>
+        <div class="right-side">
+            <img src="./Images/website-icon.svg" alt="">
+            <p>
+                GO TO WEBSITE
+            </p>
+           
+        </div>
+    </nav>
+    <main>
+
+        <div class="logIn " id="loginForm">
+            <div class="logIn-Logo">
+                <img src="./Images/logo.svg" alt="">
+            </div>
+            <h2>Log In</h2>
+            <form id="loginForm">
+                <label for="email">Email :</label>
+                <input type="email" id="email" value="admin@admin.com"  placeholder="Email" required>
+                <label for="password">Password :</label>
+                <input type="password" id="password" value="12345678"  placeholder="Password" required>
+                <button type="submit">Log In</button>
+              </form>
+        </div>
+    </main>
+    
+    <script src="/Js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+
+</html>
